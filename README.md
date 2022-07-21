@@ -1,6 +1,6 @@
 # eg3d_pti_inversion
 
-Pre-processing input images for inversion
+Installation Instructions
 
 Download the following zip file:
 
