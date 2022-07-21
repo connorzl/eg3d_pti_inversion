@@ -23,7 +23,7 @@ To perform PTI GAN inversion, download the following pre-trained EG3D model and 
 https://drive.google.com/file/d/1xwMlnPSvbfjQ4AHoJogs1ldKLitSwCcc/view?usp=sharing
 ```
 
-Next, modify the paths_config.py file located in eg3d_pti_inversion/inversion/configs/paths_config.py. Set the pre-trained model paths to the locations of align.dat and the EG3D checkpoint, which should be in eg3d_pti_inversion/inversion/utils. Modify the ##Input info section with location and name of your pre-processed input image. The output will be located in embedding_base_dir/input_data_id.
+Next, modify the paths_config.py file located in eg3d_pti_inversion/inversion/configs/paths_config.py. Set the pre-trained model paths to the locations of align.dat and the EG3D checkpoint, which should be in eg3d_pti_inversion/inversion/utils. Modify the ##Input info section with the location and name of your pre-processed input image data. The inversion output will be located in embedding_base_dir/input_data_id.
 
 ```
 cd inversion
