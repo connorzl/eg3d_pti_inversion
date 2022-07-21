@@ -12,6 +12,13 @@ This should contain an align.dat file and two directories named checkpoints and 
 
 To prepare an input image for inversion, create a directory and place an input image inside it. Then, call the process_test_images.py script inside Deep3DFaceRecon_pytorch. This will output a cropped image in INPUT_DIR/crop_1024 and camera pose parameters in INPUT_DIR/epoch_20_000000.
 
+You may need to install nvdiffrast:
+```
+cd Deep3DFaceRecon_pytorch/nvdiffrast
+pip install .
+```
+
+To pre-process your input image:
 ```
 cd Deep3DFaceRecon_pytorch
 python process_test_images.py --input_dir INPUT_DIR --gpu 0
